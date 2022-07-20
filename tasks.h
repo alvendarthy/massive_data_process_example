@@ -7,6 +7,7 @@ typedef struct Row {
 }Row;
 
 
+
 void task1(const Row *rows, int nrows);
 
 typedef int (*element_getter_t)(const Row * row);
@@ -17,6 +18,7 @@ int find_first_ge(const Row *rows, int nrows, element_getter_t getter, int targe
 int find_last_le(const Row *rows, int nrows, element_getter_t getter, int target);
 
 void task2(const Row *rows, int nrows);
+void task3(const Row *rows, int nrows);
 
 
 #endif

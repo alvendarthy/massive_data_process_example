@@ -1,6 +1,6 @@
 all: main
 
-SRCS=main.c tasks.c
+SRCS=threading.c tasks.c main.c
 
 main: $(SRCS)
 	gcc $(SRCS) -o main -lpthread -lm -g
